@@ -307,7 +307,7 @@ export default function App() {
       <div className="w-[280px] h-full border-r border-white/[0.03] flex flex-col bg-gray-800 shrink-0">
         <div className="p-6 flex flex-col h-full">
           <div className="flex items-center gap-3 mb-3 px-2 justify-center">
-            <h1 className="text-xl font-black tracking-tighter italic leading-none">
+            <h1 className="text-xl font-black tracking-tighter italic leading-none text-white">
               theCAO
             </h1>
           </div>

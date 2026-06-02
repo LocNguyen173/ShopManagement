@@ -217,7 +217,7 @@ export const InventoryTab: React.FC<Props> = ({
     <div className="space-y-10">
       <div className="flex justify-between items-start">
         <div>
-          <h2 className="text-4xl font-black tracking-tighter mb-2">
+          <h2 className="text-4xl font-black tracking-tighter mb-2 text-white">
             Kho Hàng
           </h2>
           <p className="text-white text-[13px] font-bold uppercase tracking-[0.2em]">
