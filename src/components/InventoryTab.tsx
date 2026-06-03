@@ -214,7 +214,7 @@ export const InventoryTab: React.FC<Props> = ({
   }, [currentPage, totalPages]);
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-5">
       <div className="flex justify-between items-start">
         <div>
           <h2 className="text-4xl font-black tracking-tighter mb-2 text-white">
