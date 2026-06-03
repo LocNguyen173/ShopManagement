@@ -344,17 +344,17 @@ export const OrdersTab: React.FC<Props> = ({
         ].map((card, idx) => (
           <div
             key={idx}
-            className="bg-white border border-white/5 p-5 rounded-2xl flex flex-col items-center gap-2 text-center min-w-[180px] shadow-md hover:shadow-lg">
+            className="bg-white border border-white/5 p-3 rounded-2xl flex flex-col items-center gap-1.5 text-center min-w-[150px] shadow-md hover:shadow-lg">
             <span
-              className={`material-symbols-outlined text-[22px] ${card.color}`}>
+              className={`material-symbols-outlined text-[18px] ${card.color}`}>
               {card.icon}
             </span>
             <div>
-              <p className="text-lg font-extrabold tracking-tight leading-none text-black">
+              <p className="text-base font-extrabold tracking-tight leading-none text-black">
                 {card.val}
               </p>
               <p
-                className={`text-[10px] font-black uppercase tracking-widest mt-1 ${card.color}`}>
+                className={`text-[9px] font-black uppercase tracking-widest mt-1 ${card.color}`}>
                 {card.label}
               </p>
             </div>
@@ -506,7 +506,7 @@ export const OrdersTab: React.FC<Props> = ({
 
       <div className="border border-white/15 rounded-3xl bg-[#f2f3f5]">
         <div
-          className="relative overflow-x-auto overflow-y-auto scrollbar max-h-[600px] rounded-3xl overscroll-contain"
+          className="relative overflow-x-auto overflow-y-auto scrollbar max-h-[450px] rounded-3xl overscroll-contain"
           onWheel={handleTableWheel}>
           <table className="w-full text-left border-collapse min-w-[1100px] text-[#1f2937]">
             <thead className="sticky top-0 z-10 bg-[#e6e7ea]">

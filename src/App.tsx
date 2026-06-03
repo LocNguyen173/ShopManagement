@@ -396,7 +396,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="flex-1 h-full overflow-y-auto dark-scrollbar p-8 lg:p-12 bg-gray-600">
+      <div className="flex-1 h-full overflow-y-auto dark-scrollbar p-4 lg:p-12 bg-gray-600">
         <div className="max-w-7xl mx-auto h-full">
           <AnimatePresence mode="wait">
             <motion.div
