@@ -202,7 +202,7 @@ export const Stats: React.FC = () => {
   return (
     <div className="space-y-8">
       <div className="flex flex-col gap-2">
-        <h2 className="text-3xl font-black tracking-tighter">
+        <h2 className="text-3xl font-black tracking-tighter text-white">
           Bảng Điều Khiển Doanh Thu
         </h2>
         <p className="text-white/60 text-[11px] font-bold uppercase tracking-[0.35em]">

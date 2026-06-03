@@ -298,7 +298,7 @@ export const OrdersTab: React.FC<Props> = ({
       <div className="space-y-6">
         <div className="flex justify-between items-end">
           <div>
-            <h2 className="text-3xl font-black tracking-tighter mb-1">
+            <h2 className="text-3xl font-black tracking-tighter mb-1 text-white">
               Nhật Ký Đơn Hàng
             </h2>
             <p className="text-white text-[11px] font-bold uppercase tracking-[0.2em]">

@@ -324,7 +324,7 @@ export const InventoryTab: React.FC<Props> = ({
         </div>
       </div>
 
-      <div className="mt-10">
+      <div className="mt-12">
         <div className="border border-gray-200/60 rounded-[28px] bg-gray-100/80 shadow-[0_16px_50px_rgba(0,0,0,0.06)] overflow-hidden">
           <div
             className="relative overflow-x-auto overflow-y-auto max-h-[500px] scrollbar rounded-[28px] overscroll-contain"
