@@ -327,7 +327,7 @@ export const InventoryTab: React.FC<Props> = ({
       <div className="mt-12">
         <div className="border border-gray-200/60 rounded-[28px] bg-gray-100/80 shadow-[0_16px_50px_rgba(0,0,0,0.06)] overflow-hidden">
           <div
-            className="relative overflow-x-auto overflow-y-auto max-h-[500px] scrollbar rounded-[28px] overscroll-contain"
+            className="relative overflow-x-auto overflow-y-auto max-h-[600px] scrollbar rounded-[28px] overscroll-contain"
             onWheel={handleTableWheel}>
             <table className="w-full text-left border-collapse">
               <thead className="sticky top-0 z-10 bg-white-800">

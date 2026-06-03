@@ -509,7 +509,7 @@ export const OrdersTab: React.FC<Props> = ({
       <div className="mt-12">
         <div className="border border-white/15 rounded-3xl bg-[#f2f3f5]">
           <div
-            className="relative overflow-x-auto overflow-y-auto scrollbar max-h-[500px] rounded-3xl overscroll-contain"
+            className="relative overflow-x-auto overflow-y-auto scrollbar max-h-[600px] rounded-3xl overscroll-contain"
             onWheel={handleTableWheel}>
             <table className="w-full text-left border-collapse min-w-[1100px] text-[#1f2937]">
               <thead className="sticky top-0 z-10 bg-[#e6e7ea]">
