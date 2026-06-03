@@ -28,6 +28,7 @@ const COSTUME_TYPES = [
   "Quần tây",
   "Quần jean",
   "Áo khoác / Blazer",
+  "Đầm",
   "Phụ kiện",
 ];
 
